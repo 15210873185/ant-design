@@ -21,7 +21,7 @@ const tagsFromServer = ['Movie', 'Books', 'Music'];
 
 class HotTags extends React.Component {
   state = {
-    selectedTags: [],
+    selectedTags: ['#49bed6'],
   };
 
   handleChange(tag, checked) {
