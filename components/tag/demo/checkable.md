@@ -22,7 +22,7 @@ import { Tag } from 'antd';
 const { CheckableTag } = Tag;
 
 class MyTag extends React.Component {
-  state = { checked: true };
+  state = { checked};
   handleChange = (checked) => {
     this.setState({ checked });
   }
